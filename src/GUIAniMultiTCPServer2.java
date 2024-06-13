@@ -106,8 +106,18 @@ class GUIAniMultiTCPServer2 {
 
                     if (color.equals("yellow")) {
                         animation.setFaceColor(which, Color.yellow);
-                    } else if (color.equals("ref")) {
+                    } else if (color.equals("red")) {
                         animation.setFaceColor(which, Color.red);
+                    } else if (color.equals("green")) {
+                        animation.setFaceColor(which, Color.green);
+                    } else if (color.equals("blue")) {
+                        animation.setFaceColor(which, Color.blue);
+                    } else if (color.equals("pink")) {
+                        animation.setFaceColor(which, Color.pink);
+                    } else if (color.equals("cyan")) {
+                        animation.setFaceColor(which, Color.CYAN);
+                    } else if (color.equals("orange")) {
+                        animation.setFaceColor(which, Color.ORANGE);
                     }
 
                 } else
