@@ -55,10 +55,10 @@ public class GUIAnimationMain extends JPanel implements ActionListener {
     }
 
     // i番目の顔の位置を変更する関数。
-    public void setFacePlace(int i, int x, int y, String message) {
+    public void setFacePlace(int which, int x, int y, String message) {
         System.out.println("setFacePlace() :" + message);
-        myBallRims[i].setPosition(x, y);
-        myBallRims[i].setMessage(message);
+        myBallRims[which].setPosition(x, y);
+        myBallRims[which].setMessage(message);
     }
 
     // i番目の感情を変更する関数。
